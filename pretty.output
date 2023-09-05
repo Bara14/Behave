@@ -1,0 +1,6 @@
+Feature: Testing the home page # features/navigation.feature:1
+
+  Scenario: Verify the title                                 # features/navigation.feature:2
+    Given I am on the home page                              # features/steps/common_steps.py:5
+    Then I should see the title as 'Welcome to the-internet' # features/steps/common_steps.py:10
+
